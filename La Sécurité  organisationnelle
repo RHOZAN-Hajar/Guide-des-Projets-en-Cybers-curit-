@@ -1,0 +1,45 @@
+GRC 
+1. Mise en place d’un cadre de gouvernance informatique avec COBIT / mihari / octave 
+Objectif : Adapter et implémenter le référentiel COBIT / mihari / octave pour améliorer la gouvernance IT dans une PME marocaine.
+ 2. Analyse des risques avec la méthode EBIOS
+ Objectif : Identifier, analyser et traiter les risques liés aux systèmes d’information d’une entreprise marocaine.
+ 3. Conformité à la DNSSI 
+Objectif : Évaluer le niveau de conformité d’une entreprise marocaine par rapport à la DNSSI et proposer des actions correctives.
+ 4. Intégration de COBIT et EBIOS pour une gestion alignée des risques IT
+ Objectif : Combiner COBIT pour la gouvernance et EBIOS pour la gestion des risques dans une organisation.
+ 5.Implémentation d’un SMSI  conforme à l’ISO 27001 et à la DNSSI
+ Objectif : Créer et déployer un SMSI basé sur l’ISO 27001 tout en assurant la conformité avec la DNSSI.
+ 6. Réalisation d'une checklist pour un audit PCI DSS version 4.0
+ Objectif : Créer une checklist pour vérifier la conformité des systèmes de paiement à la norme PCI DSS version 4.0
+ 6. Plan de mise en conformité réglementaire pour les entreprises 
+ Objectif : Élaborer un plan d’action pour assurer la conformité avec les normes locales (DNSSI) et internationales (ISO 27001, GDPR).
+ 7. Audit de la sécurité des systèmes d’information selon la DNSSI et EBIOS
+ Objectif : Réaliser un audit complet des systèmes d’information en utilisant la DNSSI comme cadre de conformité et EBIOS pour l’analyse des risques.
+ 8.Gestion des risques liés aux tiers (supply chain risk management) avec EBIOS
+ Objectif : Évaluer les risques liés aux fournisseurs et partenaires en utilisant la méthode EBIOS.
+ 9.Réalisation d'une checklist pour l'audit DNSSI version 2
+ Objectif : Fournir une checklist pour évaluer la conformité aux exigences de la Directive Nationale de Sécurité des Systèmesd'Information (DNSSI) version 2.
+ Remarque : De nombreux projets GRC peuvent être réalisés chez vous grâce à des outils de simulation et des scénarios fictifs, mais les audits et les mises en conformité réels nécessitent souvent l'accès à une entreprise
+
+IAM /PAM 
+1.  Mise en œuvre de PKI 
+Objectif : Créer un environnement de confiance pour sécuriser les communications, gérer les identités numériques et assurer l'authentification, la confidentialité, l'intégrité et la non-répudiation.
+ 2. Déploiement et Gestion d'une Solution Zero Trust avec Cisco ISE
+ Objectif : Contrôler les accès réseau de manière granulaire, garantir une authentification stricte.
+    
+3. Gestion des Comptes à Privilèges dans une Infrastructure Critique avec Wallix
+ Objectif : Sécuriser, surveiller et contrôler l'accès aux comptes à privilèges pour prévenir les abus, assurer la conformité et protéger les systèmes critiques contre les cybermenaces.
+ 4. Implémentation d'un outil open-source pour la gestion des IAM
+ Objectif : Découvrir les bases de l'IAM en configurant des outils tels que Keycloak, afin d'implémenter l'authentification et l'autorisation des utilisateurs dans un environnement sécurisé.
+ 5. Exploration et gestion des annuaires LDAP
+ Objectif : Apprendre à configurer et interagir avec des serveurs LDAP pour gérer les utilisateurs et leurs permissions, tout en renforçant la sécurité des accès.
+ 6. Configuration d'Active Directory pour la gestion des utilisateurs
+ Objectif : Comprendre le rôle d’AD dans la gestion centralisée des utilisateurs, des groupes et des autorisations dans un environnement professionnel
+8. Sécurisation des accès et détection des vulnérabilités dans les services IAM
+ Objectif : Analyser et tester la robustesse des configurations IAM pour détecter et corriger les éventuelles failles de sécurité.
+ 1. Configuration et gestion des HSM 
+Objectif : Apprendre à initialiser, configurer, et gérer des clés cryptographiques tout en assurant la haute disponibilité.
+ 2.Étude des attaques sur RSAy
+ Objectif : Analyser les failles potentielles de l'algorithme RSA, comme les attaques par factorisation ou par clé faible, et proposer des solutions pour sécuriser son implémentation.
+ 7. Étude des mécanismes d'authentification et d'autorisation dans les applications web modernes
+ Objectif : Découvrir les protocoles courants tels que OAuth2.0 et OpenID Connect, et implémenter une solution d'authentification sécurisée dans une application web.
