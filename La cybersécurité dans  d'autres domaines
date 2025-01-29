@@ -1,0 +1,72 @@
+LA SÉCURITÉ DU CLOUD
+ 1.Audit de sécurité d’une infrastructure cloud 
+Objectif : Utiliser des outils comme AWS Trusted Advisor, Azure Security Center, ou Google Cloud Security Command Center pour identifier les failles de configuration ou de sécurité dans une infrastructure cloud.
+ 2.Détection des activités suspectes avec CloudTrail ou CloudWatch 
+Objectif : Configurer la surveillance des activités cloud, analyser les logs pour détecter des comportements anormaux et réagir aux incidents de sécurité.
+ 3.Mise en œuvre de la gestion des clés avec un KMS (Key Management System) 
+Objectif : Utiliser un service comme AWS KMS ou Azure Key Vault pour gérer et protéger les clés de chiffrement utilisées pour sécuriser les données stockées dans le cloud.
+ 4.Chiffrement des données au repos et en transit 
+Objectif : Configurer le chiffrement pour les données stockées dans des services cloud (ex. Amazon S3, Azure Blob Storage) et sécuriser les communications réseau avec TLS.
+ 5. Mise en place d'une architecture zéro confiance (Zero Trust) dans le cloud 
+Objectif : Mettre en œuvre des politiques de sécurité qui supposent qu’aucun utilisateur ou appareil n'est automatiquement approuvé,
+ même à l'intérieur du réseau, et utiliser des solutions comme Azure AD Conditional Access ou Google BeyondCorp
+6. Protection contre les attaques DDoS avec des services natifs du cloud 
+Objectif : Configurer des outils comme AWS Shield, Azure DDoS Protection, ou Google Cloud Armor pour protéger les applications hébergées dans le cloud contre les attaques par déni de service.
+ 7. Mise en place d’un système de sauvegarde et de reprise après sinistre (DRP) 
+Objectif : Créer une stratégie de sauvegarde dans le cloud avec des services comme AWS Backup ou Azure Backup pour garantir la récupération des données en cas d’incident majeur.
+ 8. Sécurisation des conteneurs dans le cloud 
+Objectif : Utiliser des services comme Google Kubernetes Engine (GKE), AWS ECS, ou Azure AKS pour déployer des conteneurs tout en appliquant des politiques de sécurité avancées (scan des conteneurs, contrôle des privilèges, isolation des réseaux).
+ 9. Automatisation de la réponse aux incidents avec des outils cloud natifs 
+Objectif : Utiliser des services comme AWS Lambda ou Azure Logic Apps pour automatiser la réponse aux incidents (par exemple, isoler un serveur compromis)
+ 10. Analyse des Vulnérabilités Cloud avec Nessus et BIG-IP F5
+ Objectif : Analyser les vulnérabilités des infrastructures cloud en utilisant Nessus pour la détection des failles et BIG-IP F5 pour renforcer la sécurité
+ 15. Virtualisation des serveurs et des postes avec KVM et l'intégration de l'Intelligence Artificielle pour la gestion et la sécurité
+ Objectif : Etudier l'utilisation de KVM pour la virtualisation des serveurs et des postes de travail, tout en intégrant des techniques IA pour optimiser la gestion des ressources, la sécurité  des environnements virtualisés
+
+DEVOPS
+ 1.  Mise en place d’un pipeline CI/CD sécurisé 
+Objectif : Automatiser le processus de construction, de test, et de déploiement d’une application tout en intégrant des outils de sécurité pour détecter les vulnérabilités avant la mise en production.
+ 2. Création et déploiement d’un conteneur Docker 
+Objectif : Conteneuriser une application web pour garantir son portage et son fonctionnement uniforme dans différents environnements.
+ 3.Surveillance des applications avec des outils de monitoring 
+Objectif : Implémenter une solution de monitoring (ex. Prometheus et Grafana) pour collecter et analyser les métriques des performances applicatives.
+ 4.Déploiement d’une architecture basée sur des microservices 
+Objectif : Concevoir une architecture composée de plusieurs microservices interconnectés et déployer les services via un orchestrateur comme Kubernetes.
+ 5. Automatisation des logs avec ELK Stack 
+Objectif : Mettre en place une solution pour centraliser, analyser et visualiser les journaux des applications et des infrastructures.
+
+DEVSECOPS
+ 1.  Intégration de tests de sécurité dans un pipeline CI/CD 
+Objectif : Ajouter des outils d’analyse statique (SAST), dynamique (DAST) et des scans de conteneurs dans un pipeline pour détecter et corriger les vulnérabilités automatiquement.
+ 2.Création d’une infrastructure as code (IaC) sécurisée avec Terraform 
+Objectif : Automatiser la création d’infrastructures cloud tout en intégrant des bonnes pratiques pour sécuriser les ressources déployées.
+ 3. Détection des vulnérabilités des conteneurs 
+Objectif : Utiliser des outils comme Trivy ou Clair pour analyser les images Docker et identifier les failles de sécurité dans les conteneurs.
+ 4. Mise en place d’un service mesh pour les microservices 
+Objectif : Implémenter une couche de communication sécurisée entre les microservices avec un outil comme Istio ou Linkerd, tout en ajoutant des politiques de sécurité.
+ 5.Protection des applications conteneurisées 
+Objectif : Intégrer des outils comme Falco ou Aqua Security pour surveiller les activités des conteneurs et empêcher des comportements malveillants
+
+LA CYBERSÉCURITÉ /AI
+ 1.Développement d’un système basé sur l’intelligence artificielle pour détecter les comportements suspects dans un réseau.
+ 2.Classification automatique des malwares
+ Objectif : Automatiser l'analyse de fichiers malveillants afin de réduire le temps d’identification et de classification dans les environnements de réponse aux incidents.
+ 3.Automatisation des tests de vulnérabilité avec IA
+ Objectif : Prioriser les vulnérabilités détectées par des outils comme OpenVAS ou Nessus en fonction de leur criticité et automatiser la génération de rapports pour les équipes de sécurité.
+ 4.Détection de phishing avec NLP
+ Objectif : Créer un modèle capable de distinguer les e-mails légitimes des tentatives de phishing afin de protéger les utilisateurs contre les cyberattaques basées sur l’ingénierie sociale.
+ 5.Détection d’exfiltration de données avec IA / Détection des fuites de données grâce à des modèles d'IA
+ Objectif : Suivre le trafic réseau pour identifier et bloquer automatiquement les tentatives d'exfiltration de données sensibles.
+ 6.Automatisation de la sécurisation des images Docker et des conteneurs actifs en suivant les bonnes pratiques (CIS Benchmark).
+ Objectif : Scanner et détecter les configurations vulnérables dans les conteneurs Docker/Automatiser l’application de correctifs (par exemple, limitation des privilèges ou restriction des accès réseau)/Mettre en place un reporting des correctifs appliqués pour garantir la conformité
+7. SDN attack detection using machine learning and deep learning
+ Objectif : Détecter les menaces et attaques sur les architectures SDN en utilisant des algorithmes d'apprentissage automatique et profond.
+ 8. Intégration de IA pour renforcer la sécurité dans un Cloud Privé IaaS (OpenStack, Eucalyptus)
+ 8.IoT attack detection using deep learning
+ Objectif : Identifier et prévenir les attaques ciblant les objets connectés en exploitant des modèles de deep learning.
+ 9.Intégration de l'analyse intelligente (Machine Learning et Deep Learning) dans l'analyse de trafic réseau avec des IDS/IPS open source (Snort, Suricata)
+ Objectif : Améliorer les capacités des systèmes de détection/prévention des intrusions  en y intégrant des techniques avancées d'apprentissage
+ automatique pour une analyse réseau plus efficace.
+ 10. Intégration de IA pour la Cybersécurité dans les Plateformes SaaS de Déploiement d'Applications Conteneurisées avec Docker
+ 11. Amélioration de la gestion de la virtualisation de serveurs avec Proxmox VE en intégrant IA pour l'optimisation des performances et la sécurité
+ Objectif : Explorer l'utilisation de Proxmox VE (Virtual Environment) pour la gestion de la virtualisation de serveurs open source, tout en intégrant des solutions d'intelligence artificielle pour améliorer la gestion des ressources, la performance et la sécurité du système.
