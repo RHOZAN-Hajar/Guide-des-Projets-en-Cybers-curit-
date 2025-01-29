@@ -1,0 +1,22 @@
+PENETRATION TESTING 
+4.Création d’outils d’automatisation pour le pentest
+ Objectif : Développer des scripts ou outils en Python ou Bash pour automatiser des tâches répétitives lors d’un test d’intrusion, comme le scan de ports, la recherche de vulnérabilités ou l’exfiltration de données.
+ 6.Analyse de logs pour identifier des tentatives d’attaque
+ Objectif : Créer un script pour analyser automatiquement les logs de serveurs web ou réseaux afin de détecter des activités suspectes, comme des scans de vulnérabilités ou des tentatives d’injection.
+ 1. Mise en place d'une stratégie de tests d'intrusion dans une entreprise
+ Objectif : Identifier les vulnérabilités des systèmes d'information d'une entreprise à travers des tests d'intrusion et proposer des solutions de remédiation.
+ 2. Analyse des menaces avec la méthode de Threat Hunting
+ Objectif : Mettre en place une approche proactive pour détecter des menaces potentielles au sein des systèmes d'information d'une organisation marocaine, en se basant sur des techniques avancées de chasse aux menaces.
+ 3. Sécurisation des réseaux d'entreprise par des simulations d'attaque  
+avec Metasploit
+ Objectif : Simuler des attaques complexes sur le réseau d'une entreprise .
+
+SÉCURITÉ DES APPLICATIONS WEB 
+1. Protection et Optimisation des Applications Web Critiques avec BIG-IP F5 
+Objectif :  Protéger et d'optimiser les performances des applications web critiques 
+2. Implémentation d'un programme de Bug Bounty pour améliorer la sécurité des applications web
+ Objectif : Lancer un programme de Bug Bounty afin d'exploiter les talents de chercheurs en sécurité externes pour découvrir des vulnérabilités dans les applications web de l'entreprise, et ainsi renforcer leur sécurité.
+ 3. Développement d’un framework pour la découverte de vulnérabilités dans les applications web
+ Objectif : Créer un outil capable d’automatiser la détection de vulnérabilités courantes  dans les applications web, tout en générant des rapports détaillés pour les pentesters.
+ 4. Test d'intrusion sur une application web vulnérable DVWA
+ Objectif : Effectuer un test d'intrusion sur DVWA en simulant différentes attaques pour identifier les vulnérabilités exploitables
